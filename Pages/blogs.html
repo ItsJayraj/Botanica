@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Add a gray background color with some padding */
+    body {
+      font-family: Arial;
+      padding: 20px;
+      background: #f1f1f1;
+    }
+
+    /* Header/Blog Title */
+    .head {
+      padding: 200px;
+      font-size: 40px;
+      text-align: center;
+      background: white;
+    }
+
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {
+      float: left;
+      width: 75%;
+    }
+
+    /* Right column */
+    .rightcolumn {
+      float: left;
+      width: 25%;
+      padding-left: 20px;
+    }
+
+    /* Fake image */
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+
+    /* Add a card effect for articles */
+    .card {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+      margin-top: 20px;
+    }
+
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+
+      .leftcolumn,
+      .rightcolumn {
+        width: 100%;
+        padding: 0;
+      }
+    }
+
+    .nav-link {
+      margin-right: 10px;
+      margin-left: 10px;
+      color: black;
+      text-transform: uppercase;
+    }
+
+
+    .nav-link.t {
+      font-size: 1.4rem;
+    }
+
+    .nav-link.t:hover {
+      color: #32cd32;
+      font-family: 'Lato', Bold;
+    }
+
+    .main-header {
+      box-shadow: 0 0 7px rgb(153 153 153 / 30%);
+      padding: 0%;
+    }
+
+    .logo {
+      font-size: 1rem;
+      color: #333;
+      font-weight: bolder;
+      text-align: center;
+      padding-left: 3rem;
+    }
+
+    a:visited {
+      color: #000;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #000;
+      text-decoration: none;
+    }
+
+    a:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      bottom: -2px;
+      left: 0;
+      background-color: #32cd32;
+      visibility: hidden;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+    }
+
+    a:hover:before {
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+
+    .main-header {
+      box-shadow: 0 0 7px rgb(153 153 153 / 30%);
+      padding: 0%;
+    }
+  </style>
+
+  <header class="main-header fixed-top bg-white">
+    <nav class="navbar navbar-light navbar-expand justify-content-between flex-column flex-md-row">
+      <div href="#" class="logo">
+        <a href="#"><img src="/images/Logo.png" alt="Botanica" width="220" height="47"></a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="navbar-top-wrap collapse navbar-collapse ">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0" style="list-style: none;">
+          <li class="nav-item">
+            <a class="nav-link t " aria-current="page" href="#">Home</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link t " href="Pages/store.html">store</a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link t" href="blogs.html">blogs</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link t" href="Pages/About Us.html"> about us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link t" href="Pages/Sing In.html">Sing In</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+  </header>
+
+<body>
+  <div class="head" style="padding-top: 10rem;">
+    <h2>Blog Name</h2>
+  </div>
+
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, Dec 7, 2017</h5>
+        <div class="fakeimg" style="height:200px;">Image</div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco.</p>
+      </div>
+      <div class="card">
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, Sep 2, 2017</h5>
+        <div class="fakeimg" style="height:200px;">Image</div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco.</p>
+      </div>
+    </div>
+    <div class="rightcolumn">
+      <div class="card">
+        <h2>About Me</h2>
+        <div class="fakeimg" style="height:100px;">Image</div>
+        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      </div>
+      <div class="card">
+        <h3>Popular Post</h3>
+        <div class="fakeimg">Image</div><br>
+        <div class="fakeimg">Image</div><br>
+        <div class="fakeimg">Image</div>
+      </div>
+      <div class="card">
+        <h3>Follow Me</h3>
+        <p>Some text..</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <h2>Footer</h2>
+  </div>
+
+</body>
+
+</html>
