@@ -248,7 +248,7 @@ header .bg-white {
 }
 
 .bd-placeholder-img-1 {
-  background: url(/images/j.jpg);
+  background: url(images/j.jpg);
   background-size: cover;
   border-radius: 40px;
 
@@ -256,7 +256,7 @@ header .bg-white {
 }
 
 .bd-placeholder-img-2 {
-  background: url(/images/777.png);
+  background: url(images/777.png);
   background-size: cover;
   border-radius: 40px;
 
@@ -264,7 +264,7 @@ header .bg-white {
 }
 
 .bd-placeholder-img-3 {
-  background: url(/images/c.jpg);
+  background: url(images/c.jpg);
   background-size: cover;
   border-radius: 40px;
 
@@ -275,11 +275,11 @@ header .bg-white {
 
 
 .headline {
-  background: url(/images/1.png);
+  background: url(images/1.png);
 }
 
 main .big {
-  background: url(/images/l.png);
+  background: url(images/l.png);
   background-size: cover;
 }
 
@@ -294,17 +294,17 @@ main .big {
 /*  Three columns of text below the carousel starts */
 
 .bd-placeholder-img.rounded-circle-1 {
-  background-image: url(/images/icon-1.png);
+  background-image: url(images/icon-1.png);
   background-size: cover;
 }
 
 .bd-placeholder-img.rounded-circle-2 {
-  background-image: url(/images/icon-2.png);
+  background-image: url(images/icon-2.png);
   background-size: cover;
 }
 
 .bd-placeholder-img.rounded-circle-3 {
-  background-image: url(/images/icon-4.png);
+  background-image: url(images/icon-4.png);
   background-size: cover;
 }
 
