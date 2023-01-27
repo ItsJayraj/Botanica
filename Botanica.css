@@ -86,11 +86,11 @@ header .bg-white {
 
 .nav-link.t {
   font-size: 1.4rem;
+  font-family: 'Lato', Bold;  
 }
 
 .nav-link.t:hover {
   color: #32cd32;
-  font-family: 'Lato', Bold;
 
 }
 
