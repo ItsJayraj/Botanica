@@ -21,12 +21,12 @@
             margin-top: 20px;
         }
     
-/*         #store-list img {
+        #store-list img {
             width: 100%;
             height: 170px;
             border: 5px solid #ecf0f1;
             margin-bottom: 7px;
-        } */
+        }
     
         #store-list h4.title-store a:hover {
             -webkit-transition: all 1s ease;
@@ -34,30 +34,30 @@
             -ms-transition: all 1s ease;
             -o-transition: all 1s ease;
             transition: all 1s ease;
-            color: #f1c40f;
+            color: lightcoral;
         }
     
         #store-list h4.title-store a {
             color: #32cd32;
             text-decoration: none;
         }
+        
 
         #store-list h5.title-store a {
             color: #32cd32;
             text-decoration: none;
         }
 
-        /* .btn.btn-default {
-            border-color: #bdc3c7;
-            background-color: #bdc3c7;
-            border: 1px solid #bdc3c7;
-        } */
-    
-    
-        .btn.btn-success {
+        .btn-outline-success {
             border-color: #32cd32;
             background-color: #32cd32;
             border: 1px solid #32cd32;
+            color: white;
+        }
+        .btn-outline-success:hover{
+            background-color: lightcoral;
+            color: white;
+
         }
     
         .media.media-news {
@@ -152,7 +152,14 @@
             margin-right: 20px;
             font-weight: bold;
         }
-        
+ 
+.sold-out{
+   font-size: 1rem;
+}
+.img-fluid:hover{
+   zoom: 1;
+}
+
     </style>
 </head>
 
@@ -165,10 +172,12 @@
                 <div class="panel">
                     <div class="panel-body">
                         <div class="row">
-                            <div class="col-sm-5">
-                                <a href="#"><img src="../images/moneygolden_45_1.png" class="img-fluid "></a>
+                            <div class="col-sm-5 ">
+                                <a href="#"><img src="../images/moneygolden_45_1.png" class="img-fluid"></a>
+                                <!-- <span class="notify-badge">sold out</span> -->
                             </div>
                             <div class="col-sm-7">
+                                <!-- <span class="notify-badge">sold out</span> -->
                                 <h4 class="title-store">
                                     <strong><a href="#">Money Plant Golden</a></strong>
                                 </h4>
@@ -193,16 +202,19 @@
                                 <a href="#"><img src="../images/philodendronbrokenheart_45_1.png" class="img-fluid"></a>
                             </div>
                             <div class="col-sm-7">
-                                <h4 class="title-store">
-                                    <strong><a href="#">Broken Heart Plant</a></strong>
+                                <!-- <h1 class="badge bg-danger">sold out</h1> -->
+                                <h4 class="title-store ">
+                                    <strong><a href="#">Broken Heart Plant</a></strong>&nbsp;
+                                    <span class="badge bg-danger sold-out">SOLD OUT</span>
                                 </h4>
+                               
                                 <hr>
                                 <p>One of the most popular houseplants, and our all-time bestseller, 
                                     this easy-growing plant with its heart-shaped leaves is loved for its beautiful fenestrations.</p>
                                 <p>
                                     <a href="#" class="btn1 " disabled="" data-original-title=""
-                                        title="">₹399</a>
-                                    <a href="#" class="btn btn btn-outline-success pull-right" data-original-title="" title="">Buy
+                                        title="">$12,990</a>
+                                    <a href="#" class="btn btn btn-outline-success pull-right disabled" data-original-title=""  title="">Buy
                                         Now</a>
                                 </p>
                             </div>
@@ -291,14 +303,15 @@
                             </div>
                             <div class="col-sm-7">
                                 <h4 class="title-store">
-                                    <strong><a href="#">Chlorophytum Spider Plant</a></strong>
+                                    <strong><a href="#">Chlorophytum Spider Plant</a></strong>&nbsp;
+                                    <span class="badge bg-danger sold-out">SOLD OUT</span>
                                 </h4>
                                 <hr>
                                 <p>Chlorophytum Spider aka the Spider Plant, is an impressive indoor plant and perfect for beginners.</p>
                                 <p>
                                     <a href="#" class="btn1 " disabled="" data-original-title=""
                                         title="">₹299</a>
-                                    <a href="#" class="btn btn btn-outline-success pull-right" data-original-title="" title="">Buy
+                                    <a href="#" class="btn btn btn-outline-success pull-right disabled" data-original-title="" title="">Buy
                                         Now</a>
                                 </p>
                             </div>
@@ -371,7 +384,7 @@
                                 <p>Are you a sucker for succulents? The Crassula Green Mini will be your dream plant kid. One of the easiest houseplants to look after, the Crassula Green Mini boasts a lush foliage which beautifies any room.</p>
                                 <p>
                                     <a href="#" class="btn1 " disabled="" data-original-title=""
-                                        title="">₹499</a>
+                                        title="">$12,990</a>
                                     <a href="#" class="btn btn-outline-success pull-right" data-original-title="" title="">Buy
                                         Now</a>
                                 </p>
@@ -379,7 +392,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div><br>
             <div class="col-md-4 col-xs-12">
                 <div class="panel">
                     <div class="panel-body">
@@ -389,14 +402,15 @@
                             </div>
                             <div class="col-sm-7">
                                 <h4 class="title-store">
-                                    <strong><a href="#">The Sleep Better Bundle</a></strong>
+                                    <strong><a href="#">The Sleep Better Bundle</a></strong>&nbsp;
+                                    <span class="badge bg-danger sold-out">SOLD OUT</span>
                                 </h4>
                                 <hr>
                                 <p>Air is something we require at all moments of our life and yet overlook the most. This plant bundle is curated to help clean a majority of pollutants commonly found in indoor air, from VOCs to carbon monoxide.<p>
                                     <a href="#" class="btn1 " disabled="" data-original-title=""
                                         title="">₹1,299
                                     </a>
-                                    <a href="#" class="btn btn-outline-success pull-right" data-original-title="" title="">Buy
+                                    <a href="#" class="btn btn-outline-success pull-right disabled" data-original-title="" title="">Buy
                                         Now</a>
                                 </p>
                             </div>
@@ -447,7 +461,7 @@
                                 <p>Air is something we require at all moments of our life and yet overlook the most. This plant bundle is curated to help clean a majority of pollutants commonly found in indoor air, from VOCs to carbon monoxide. </p>
                                 <p>
                                     <a href="#" class="btn1" disabled="" data-original-title=""
-                                        title="">₹1,999</a>
+                                        title="">$12,990</a>
                                     <a href="#" class="btn btn btn-outline-success pull-right" data-original-title="" title="">Buy
                                         Now</a>
                                 </p>
