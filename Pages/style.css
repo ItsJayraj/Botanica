@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    margin-top: 20px;
+}
+p{
+    font-size: 0.9rem;
+    color: #7393b3;
+}
+/* #store-list img {
+            width: 100%;
+            height: 170px;
+            border: 5px solid #ecf0f1;
+            margin-bottom: 7px;
+        } */
+
+#store-list h4.title-store a:hover {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    color: lightcoral;
+}
+
+#store-list h4.title-store a {
+    color: #32cd32;
+    text-decoration: none;
+}
+
+
+#store-list h5.title-store a {
+    color: #32cd32;
+    text-decoration: none;
+}
+
+.btn-outline-success {
+    border-color: #32cd32;
+    background-color: #32cd32;
+    border: 1px solid #32cd32;
+    color: white;
+}
+
+.btn-outline-success:hover {
+    background-color: lightcoral;
+    color: white;
+
+}
+
+.media.media-news {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    padding-bottom: 210px;
+}
+
+@media (min-width: 768px) {
+    .media.media-news {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .media.media-news {
+        padding-bottom: 25px;
+        margin-bottom: 0;
+    }
+}
+
+.media.media-news .media-body {
+    padding: 20px;
+    box-shadow: 0 22px 28px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    position: absolute;
+    width: 85%;
+    right: 0;
+    bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .media.media-news .media-body {
+        position: relative;
+        padding: 46.5px 35px;
+        right: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .media.media-news .media-body {
+        right: 40px;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .media.media-news .media-body {
+        position: absolute;
+        right: 35px;
+        width: 60%;
+        padding: 20px;
+    }
+}
+
+.media.media-news .media-body .media-date {
+    font-family: "Open Sans", sans-serif;
+    color: #848484;
+    margin-bottom: 10px;
+}
+
+.media.media-news .media-body h5 {
+    font-size: 22px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.media.media-news .media-body h5.small {
+    font-size: 16px;
+}
+
+.media.media-news .media-body p {
+    font-family: "Open Sans", sans-serif;
+    color: #848484;
+}
+
+.media.media-news .media-body .common-btn {
+    margin-top: 10px;
+}
+
+.h2 {
+    padding: 2%;
+    padding-bottom: 1mm;
+    font-family: lato, bold;
+}
+
+.btn1 {
+    color: yellowgreen;
+    text-decoration: none;
+    font-size: larger;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.sold-out {
+    font-size: 1rem;
+}
+
+
+
+body h5 {
+    box-sizing: border-box;
+    padding: 7%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: Lato, Regular;
+    font-size: 1.2rem;
+}
+
+i {
+    font-family: lato, bold;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    color: #32cd32;
+    text-transform: uppercase;
+}
