@@ -5,16 +5,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Botanica</title>
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
   <!-- External CSS -->
   <link rel="stylesheet" href="Botanica.css">
-  <!-- Fontawesome CDN -->
+  <!-- Font Awesome CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- page CSS -->
-  <!-- Pages CSS -->
-  <link rel="stylesheet" href="Pages/style.css">
+  <script src="../index.js"></script>
   <!-- Goggle fonts CDN -->
   <link href="https://fonts.googleapis.com/css2?family=Corinthia&family=Lato&display=swap" rel="stylesheet">
 
@@ -22,22 +21,22 @@
 
 <body>
   <!-- navbar starts -->
-  <!-- <header class="fixed-top"> -->
   <header class="main-header fixed-top bg-white">
- <nav class="navbar navbar-expand-lg bg-white ustify-content-between flex-column flex-md-row ">
+
+    <nav class="navbar navbar-expand-md  bg-white justify-content-between flex-column flex-md-row ">
       <div class="container-fluid">
         <div href="#" class="logo">
-          <i href="#"><img src="images/Logo.png" alt="Botanica" width="220" height="55"></i>
+          <i href="#"><img src="../images/Logo.png" alt="Botanica" width="200" height="45"></i>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
 
             <li class="nav-item">
-              <a class="nav-link t" href="Pages/Registration.html">REG</a>
+              <a class="nav-link t" href="Pages/blogs.html">blogs</a>
             </li>
             </li>
             <li class="nav-item">
@@ -56,40 +55,45 @@
                 shop
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="Pages/Live Plants.html">Live plants</a></li>
+                <li><a class="dropdown-item" href="/Pages/LIve Plants.html ">Live plants</a></li>
                 <li>
                   <hr class="dropdown-divider">
                   <h6 class="dropdown-header">Plants needs</h6>
                 </li>
-                <li><a class="dropdown-item" href="#">Watering Can</a></li>
-                <li><a class="dropdown-item" href="#">Grow Bags</a></li>
-                <li><a class="dropdown-item" href="#">Seeds & Organic Fertilisers</a></li>
+                <li><a class="dropdown-item" href="/Pages/Plants Needs.html#soil">Soil & others</a></li>
+                <li><a class="dropdown-item" href="/Pages/Plants Needs.html#growbag">Grow Bags</a></li>
+                <li><a class="dropdown-item" href="/Pages/Plants Needs.html#fertilizer">Seeds & Organic Fertilizers</a>
+                </li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
                 <li>
                   <h6 class="dropdown-header">Plants Decor</h6>
                 </li>
-                <li><a class="dropdown-item" href="Pages/Plants Decor.html#Pots">Pots</a></li>
-                <li><a class="dropdown-item" href="Pages/Plants Decor.html#Baskects">Baskets</a></li>
+                <li><a class="dropdown-item" href="pages/Plants Decor.html#Pots">Pots</a></li>
+                <li><a class="dropdown-item" href="Pages/Plants Decor.html#Baskets">Baskets</a></li>
                 <li><a class="dropdown-item" href="Pages/Plants Decor.html#SPECIAL">Special</a></li>
-
-
               </ul>
             </li>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <form class="d-flex">
+              <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn0" type="submit">Search</button>
+            </form>&nbsp;
+            &nbsp;&nbsp;<a href="Pages/cart.html">
+              <i class="fa fa-shopping-cart nav-item" data-bs-toggle="tooltip" title="My Cart"
+                style="font-size: 36px;"></i>
+            </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Pages/Account.html">
+              <i class="fa fa-user nav-item" data-bs-toggle="tooltip" title="User Account" style="font-size: 36px;"></i>
+            </a>
           </ul>
-
-          <form class="d-flex">
-            <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn0" type="submit">Search</button>
-          </form>
-
         </div>
       </div>
     </nav>
   </header>
-  
   <main>
+
 
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -105,8 +109,8 @@
           <div class="container ">
             <div class="carousel-caption text-start">
               <h1>are very new shades of green</h1>
-              <p> not just Green Botanica loves all the colours</p>
-              <p><a class="btn btn-lg btn-success" href="Pages/Sing In.html">Sign up today</a></p>
+              <p> not just Green Botanica loves all the colors</p>
+              <p><a class="btn btn-lg btn-success" href="/Pages/Sing In.html">Sign up today</a></p>
             </div>
           </div>
         </div>
@@ -116,8 +120,8 @@
           <div class="container ">
             <div class="carousel-caption">
               <h1>your one stop for gardening</h1>
-              <p>to get  all plants essentials at one place.</p>
-              <p><a class="btn btn-lg btn-success" href="#">Learn more</a></p>
+              <p>to get all plants essentials at one place.</p>
+              <p><a class="btn btn-lg btn-success" href="#">Shop Now</a></p>
             </div>
           </div>
         </div>
@@ -126,9 +130,9 @@
 
           <div class="container">
             <div class="carousel-caption text-end">
-              <h1>Change your gardening way  </h1>
+              <h1>Change your gardening way </h1>
               <p>Gardening made fun by Botanica best indoor gardening sellers</p>
-              <p><a class="btn btn-lg btn-success" href="Pages/Live Plants.html">Browse gallery</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
             </div>
           </div>
         </div>
@@ -141,7 +145,7 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div><br><br>
+    </div>
     <div class="container marketing">
       <!-- carousel ends -->
 
@@ -153,7 +157,7 @@
           <svg class="bd-placeholder-img rounded-circle-1" width="140" height="140"></svg>
 
           <h2 class="fw-normal">Ease of Delivery</h2>
-          <p>fastest delivery made possile by Botanica <br> get your product within 2 Working days</p>
+          <p>fastest delivery made possible by Botanica <br> get your product within 2 Working days</p>
           <p><a class="btn btn-success" href="#">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
@@ -168,13 +172,13 @@
 
           <h2 class="fw-normal">Payment through all methods</h2>
           <p>gpay, phonepay, paytm, paypal, creditcard , debit card you name it we will appected it.</p>
-          <p><a class="btn btn-success" href="#">View details &raquo;</a></p>
+          <p><a class="btn btn-success" href="Pages/checkout.html">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!--Three columns of text below the carousel ends  -->
   </main>
   <!-- about section starts  -->
-  <card  style=padding-bottom:10%;>
-    <div class="container my-5" >
+  <card style=padding-bottom:10%;>
+    <div class="container my-5">
       <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
         <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
           <h1 class="display-4 fw-bold lh-1">Curious about us?</h1>
@@ -182,7 +186,8 @@
             planter to plants needs. </p>
           <p> at Botanica we admire "To plant a Garden is to believe in tomorrow".</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-            <a href="/Pages/About Us.html"><button type="button" class="btn btn-success btn-lg px-4 me-md-2 fw-bold" >Learn About Us</button></a>
+            <a href="Pages/About Us.html"><button type="button"
+                class="btn btn-success btn-lg px-4 me-md-2 fw-bold">Learn About Us</button></a>
             <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button> -->
           </div>
         </div>
@@ -197,100 +202,110 @@
 
   <!-- about section ends -->
 
-<store>
-  <!-- trending shop -->
-  <div class="container border shadow-lg rounded" style="box-sizing: border-box; padding: 4%; ">
-    <h2 class="text-center">Trending 🔥</h2>
-    <div class="row bootstrap snippets bootdeys" id="store-list">
+  <store>
+    <!-- trending shop -->
+    <div class="container border shadow-lg rounded" style="box-sizing: border-box; padding: 4%; ">
+      <h2 class="text-center">Trending 🔥</h2>
+      <div class="row bootstrap snippets bootdeys" id="store-list">
         <div class="col-md-6 col-xs-12">
-            <div class="panel">
-                <div class="panel-body">
-                    <div class="row">
-                        <div class="col-sm-5">
-                            <a href="#"><img src="images/32.png" class="img-fluid"></a>
-                        </div>
-                        <div class="col-sm-7">
-                            <h4 class="title-store">
-                                <strong><a href="#">Teal Top Jute Basket</a></strong>
-                            </h4>
-                            <hr>
-                            <p>With minimal design, the 'Teal Top Jute Basket' with stripes of white, brown, and teal can light up your interior spaces. You can cover your planters with this basket and let your plants do the talking.</p>
-                            <p>
-                                <a href="#" class="btn btn-warning" disabled="" data-original-title="" title="">₹ 660</a>
-                                <a href="#" class="btn btn-success pull-right" data-original-title="" title="">Buy Now</a>
-                            </p>
-                        </div>
-                    </div>
+          <div class="panel">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-sm-5">
+                  <a href="#"><img src="../images/32.png" class="img-responsive"></a>
                 </div>
+                <div class="col-sm-7">
+                  <h4 class="title-store">
+                    <strong><a href="#">Teal Top Jute Basket</a></strong>
+                  </h4>
+                  <hr>
+                  <p>With minimal design, the 'Teal Top Jute Basket' with stripes of white, brown, and teal can light
+                    up
+                    your interior spaces. You can cover your planters with this basket and let your plants do the
+                    talking.</p>
+                  <p>
+                    <a href="#" class="btn btn-warning" disabled="" data-original-title="" title="">₹ 660</a>
+                    <a href="Pages/checkout.html" class="btn btn-success pull-right" data-original-title="" title="">Buy
+                      Now</a>
+                  </p>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
         <div class="col-md-6 col-xs-12">
-            <div class="panel">
-                <div class="panel-body">
-                    <div class="row">
-                        <div class="col-sm-5">
-                            <a href="#"><img src="images/097A4970.jpg" class="img-fluid"></a>
-                        </div>
-                        <div class="col-sm-7">
-                            <h4 class="title-store">
-                                <strong><a href="#">Yellow Watering Can (1 ltr)</a></strong>
-                            </h4>
-                            <hr>
-                            <p>One gardening accessory that you must have. Watering complete Metal rustless.</p>
-                            <p>
-                                <a href="#" class="btn btn-warning" disabled="" data-original-title="" title="">₹ 789</a>
-                                <a href="#" class="btn btn-success pull-right" data-original-title="" title="">Buy Now</a>
-                            </p>
-                        </div>
-                    </div>
+          <div class="panel">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-sm-5">
+                  <a href="#"><img src="../images/097A4970.jpg" class="img-fluid "></a>
                 </div>
+                <div class="col-sm-7">
+                  <h4 class="title-store">
+                    <strong><a href="#">Yellow Watering Can (1 ltr)</a></strong>
+                  </h4>
+                  <hr>
+                  <p>One gardening accessory that you must have. Watering completely Metal rustless.</p>
+                  <p>
+                    <a href="#" class="btn btn-warning" disabled="" data-original-title="" title="">₹ 789</a>
+                    <a href="Pages/checkout.html" class="btn btn-success pull-right" data-original-title="" title="">Buy
+                      Now</a>
+                  </p>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
         <div class="col-md-6 col-xs-12">
-            <div class="panel">
-                <div class="panel-body">
-                    <div class="row">
-                        <div class="col-sm-5">
-                            <a href="#"><img src="images/CopyofSeaSecretLiquid1.jpg" class="img-fluid"></a>
-                        </div>
-                        <div class="col-sm-7">
-                            <h4 class="title-store">
-                                <strong><a href="#">Seaweed fertiliser (Concentrated Liquid)</a></strong>
-                            </h4>
-                            <hr>
-                            <p>It is an organic-bio stimulant that is packed with nutritional benefits. The liquid seaweed extract offers a simple and easy method of fertilization for healthy and stress-free plants</p>
-                            <p>
-                                <a href="#" class="btn btn-warning" disabled="" data-original-title="" title="">₹ 199</a>
-                                <a href="#" class="btn btn-success pull-right" data-original-title="" title="">Buy Now</a>
-                            </p>
-                        </div>
-                    </div>
+          <div class="panel">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-sm-5">
+                  <a href="#"><img src="../images/CopyofSeaSecretLiquid1.jpg" class="img-responsive"></a>
                 </div>
+                <div class="col-sm-7">
+                  <h4 class="title-store">
+                    <strong><a href="#">Seaweed fertilizer (Concentrated Liquid)</a></strong>
+                  </h4>
+                  <hr>
+                  <p>It is an organic-bio stimulant that is packed with nutritional benefits. The liquid seaweed
+                    extract
+                    offers a simple and easy method of fertilization for healthy and stress-free plants</p>
+                  <p>
+                    <a href="#" class="btn btn-warning" disabled="" data-original-title="" title="">₹ 199</a>
+                    <a href="Pages/checkout.html" class="btn btn-success pull-right" data-original-title="" title="">Buy
+                      Now</a>
+                  </p>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
         <div class="col-md-6 col-xs-12">
-            <div class="panel">
-                <div class="panel-body">
-                    <div class="row">
-                        <div class="col-sm-5">
-                            <a href="#"><img src="images/IMG_3832.jpg" class="img-fluid"></a>
-                        </div>
-                        <div class="col-sm-7">
-                            <h4 class="title-store">
-                                <strong><a href="#">Copper Finish 8" Metal Planter</a></strong>
-                            </h4>
-                            <hr>
-                            <p>Beaten metal Copper finish for a unique festive touch to your indoor space. They are durable and easy to maintain. A great way to decorate and hide the old plastic plant pots..</p>
-                            <p>
-                                <a href="#" class="btn btn-warning" disabled="" data-original-title="" title="">₹ 1,299</a>
-                                <a href="#" class="btn btn-success pull-right" data-original-title="" title="">Buy Now</a>
-                            </p>
-                        </div>
-                    </div>
+          <div class="panel">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-sm-5">
+                  <a href="#"><img src="../images/IMG_3832.jpg" class="img-responsive"></a>
                 </div>
+                <div class="col-sm-7">
+                  <h4 class="title-store">
+                    <strong><a href="#">Copper Finish 8" Metal Planter</a></strong>
+                  </h4>
+                  <hr>
+                  <p>Beaten metal Copper finish for a unique festive touch to your indoor space. They are durable and
+                    easy to maintain. A great way to decorate and hide the old plastic plant pots..</p>
+                  <p>
+                    <a href="#" class="btn btn-warning" disabled="" data-original-title="" title="">₹ 1,299</a>
+                    <a href="Pages/checkout.html" class="btn btn-success pull-right" data-original-title="" title="">Buy
+                      Now</a>
+                  </p>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
     </div>
   </store>
 
@@ -337,50 +352,50 @@
   </div>
   <div class="container testimonials shadow-lg">
     <div class="row">
-        <div class="col-md-4 testimonial">
-            <div class="row">
-                <div class="avatar col-md-5">
-                    <a href="#">
-                        <img class="img-circle" src="https://bootdey.com/img/Content/user_3.jpg" alt="Taylor Otwell">
-                    </a>
-                </div>
-        
-                <div class="testimonial-main col-md-7">
-                    <h4 class="media-heading" ><a href="#m"style="text-decoration: none; ">Owenl Ollyt</a ></h4>
-                    <p class="testimony-body">The product was live with fresh leaves on it. Nice Shop</p>
-                </div>
-            </div>
+      <div class="col-md-4 testimonial">
+        <div class="row">
+          <div class="avatar col-md-5">
+            <a href="#">
+              <img class="img-circle" src="https://bootdey.com/img/Content/user_3.jpg" alt="Taylor Otwell">
+            </a>
+          </div>
+
+          <div class="testimonial-main col-md-7">
+            <h4 class="media-heading"><a href="#" style="text-decoration: none; ">Owenl Ollyt</a></h4>
+            <p class="testimony-body">The product was live with fresh leaves on it. Nice Shop</p>
+          </div>
         </div>
-        <div class="col-md-4 testimonial">
-            <div class="row">
-                <div class="avatar col-md-5">
-                    <a href="#">
-                        <img class="img-circle" src="https://bootdey.com/img/Content/user_2.jpg" alt="Taylor Otwell">
-                    </a>
-                </div>
-        
-                <div class="testimonial-main col-md-7">
-                    <h4 class="media-heading"><a href="#" style="text-decoration: none; ">Darla Marty</a></h4>
-                    <p class="testimony-body">Good Customer service</p>
-                </div>
-            </div>
+      </div>
+      <div class="col-md-4 testimonial">
+        <div class="row">
+          <div class="avatar col-md-5">
+            <a href="#">
+              <img class="img-circle" src="https://bootdey.com/img/Content/user_2.jpg" alt="Taylor Otwell">
+            </a>
+          </div>
+
+          <div class="testimonial-main col-md-7">
+            <h4 class="media-heading"><a href="#" style="text-decoration: none; ">Darla Marty</a></h4>
+            <p class="testimony-body">Good Customer service</p>
+          </div>
         </div>
-        <div class="col-md-4 testimonial">
-            <div class="row">
-                <div class="avatar col-md-5">
-                    <a href="#">
-                        <img class="img-circle" src="https://bootdey.com/img/Content/user_1.jpg" alt="Taylor Otwell">
-                    </a>
-                </div>
-        
-                <div class="testimonial-main col-md-7">
-                    <h4 class="media-heading"><a href="#" style="text-decoration: none; ">Maryou Mcjouin</a></h4>
-                    <p class="testimony-body">Best Online store</p>
-                </div>
-            </div>
+      </div>
+      <div class="col-md-4 testimonial">
+        <div class="row">
+          <div class="avatar col-md-5">
+            <a href="#">
+              <img class="img-circle" src="https://bootdey.com/img/Content/user_1.jpg" alt="Taylor Otwell">
+            </a>
+          </div>
+
+          <div class="testimonial-main col-md-7">
+            <h4 class="media-heading"><a href="#" style="text-decoration: none; ">Maryou Mcjouin</a></h4>
+            <p class="testimony-body">Best Online store</p>
+          </div>
         </div>
+      </div>
     </div>
-</div>    
+  </div>
 
 
   <!-- Footer Starts -->
@@ -418,7 +433,7 @@
             <i class="fa fa-instagram fa-stack-1x"></i>
           </span>
         </a>
-        <a href="https://in.linkedin.com/" class="me-4 link-secondary">
+        <a href="https://www.linkedin.com/in/jayrajsinh-rathod-093185264 " class="me-4 link-secondary">
           <span class="fa-stack fa-lg">
             <i class="fa fa-circle-thin fa-stack-2x"></i>
             <i class="fa fa-linkedin fa-stack-1x"></i>
@@ -447,7 +462,8 @@
               <i class="fas fa-gem me-3 text-secondary"></i>Botanica
             </h6>
             <p>
-              A online store that provides a variety of plants based product from the soil to planter to plants needs.
+              An online store that provides a variety of plants based products from the soil to planter to plants
+              needs.
             </p>
           </div>
           <!-- Grid column -->
@@ -459,10 +475,10 @@
               Products
             </h6>
             <p>
-              <a href="#!" class="text-reset">Plants Needs</a>
+              <a href="Pages/Plants Needs.html" class="text-reset">Plants Needs</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Plants Decor</a>
+              <a href="Pages/Plants Decor.html" class="text-reset">Plants Decor</a>
             </p>
 
           </div>
@@ -478,13 +494,13 @@
               <a href="#!" class="text-reset">Bestselling</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Settings</a>
+              <a href="/Pages/term.html" class="text-reset">Terms and conditions</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Orders</a>
+              <a href="Pages/checkout.html" class="text-reset">Orders</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Help</a>
+              <a href="Pages/Contact Us.html" class="text-reset">Help</a>
             </p>
           </div>
           <!-- Grid column -->
@@ -519,8 +535,14 @@
       <!-- Copyright -->
   </footer>
   <!-- Footer Ends -->
-
+  </main>
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+
+    $(document).ready(function () {
+      $('.dropdown-toggle').dropdown()
+    });
+  </script>
 </body>
 
 </html>
